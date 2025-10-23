@@ -1,16 +1,59 @@
-# React + Vite
+# Greeting-Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small project to create, customize, and share digital greeting cards. This repository contains a lightweight web app (HTML/CSS/JavaScript) that lets users design greeting cards, preview them, download as an image, or share via a link.
 
-Currently, two official plugins are available:
+## Features
+- Create greeting cards with custom text and background
+- Choose fonts, colors, and simple decorations
+- Live preview while editing
+- Download the finished card as an image (PNG)
+- Shareable link (depending on hosting / backend support)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built with
+- HTML5
+- CSS3
+- JavaScript (Vanilla)  
+(If this repository uses a framework like React/Vue, replace the above with the appropriate stack.)
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- A modern web browser
+- (Optional) Node.js and npm if the project includes a build step or dev server
 
-## Expanding the ESLint configuration
+### Run locally (static)
+1. Clone the repository:
+   git clone https://github.com/maheshgollapalli/Greeting-Card.git
+2. Open `index.html` in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run locally (Node / dev server)
+If the project uses a dev server (e.g., via npm):
+1. Install dependencies:
+   npm install
+2. Start the dev server:
+   npm start
+3. Open the URL shown by the dev server (usually http://localhost:3000).
+
+## Usage
+1. Open the app in your browser.
+2. Enter the greeting text and customize font, size, color, and background.
+3. Use the preview to confirm the design.
+4. Download the card as an image or copy/share the generated link (if available).
+
+## Contributing
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch: git checkout -b feature/your-feature
+3. Commit your changes: git commit -m "Add feature"
+4. Push to your branch and open a pull request
+
+Please include clear descriptions and screenshots for UI changes.
+
+## License
+This project is provided under the MIT License. See LICENSE file for details.
+
+## Contact
+Maintainer: maheshgollapalli
+Repository: https://github.com/maheshgollapalli/Greeting-Card
+
+If you'd like any changes to this README (more project-specific instructions, badges, screenshots, or a different license), tell me what to include and I’ll update it. 
